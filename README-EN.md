@@ -2,7 +2,7 @@
 
 An Arduino-based digital distance meter using an ultrasonic sensor HC-SR04 and a 4-digit 7-segment LED display.
 
-![Electronic Meter](metrenumerique.jpg)
+![Electronic Meter](docs/metrenumerique.jpg)
 
 ## Description
 
@@ -15,13 +15,13 @@ This project implements a digital distance meter that measures distances using a
 - **4-digit 7-segment LED display 5641BH** - for displaying measurements
 - Connecting wires and breadboard
 
-![Components](9064729_orig.png)
+![Components](docs/9064729_orig.png)
 
 ## Hardware Setup
 
 ### Wiring Diagram
 
-![Breadboard Wiring](metrenumerique_bb.png)
+![Breadboard Wiring](docs/metrenumerique_bb.png)
 
 ### Pin Connections
 
@@ -38,7 +38,7 @@ This project implements a digital distance meter that measures distances using a
 - Digit 3: Digital Pin 16 (A2)
 - Digit 4: Digital Pin 17 (A3)
 
-![7-Segment Display](Led7Segments4Digits.png)
+![7-Segment Display](docs/Led7Segments4Digits.png)
 
 #### Ultrasonic Sensor HC-SR04
 - Trig Pin: Digital Pin 11
@@ -46,7 +46,7 @@ This project implements a digital distance meter that measures distances using a
 - VCC: 5V
 - GND: Ground
 
-![Ultrasonic Sensor](ultrasonic.png)
+![Ultrasonic Sensor](docs/ultrasonic.png)
 
 ## Software Architecture
 

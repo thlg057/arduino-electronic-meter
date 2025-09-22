@@ -2,7 +2,7 @@
 
 Un mètre électronique basé sur Arduino utilisant un capteur ultrasonique HC-SR04 et un afficheur LED 7 segments à 4 chiffres.
 
-![Mètre Électronique](metrenumerique.jpg)
+![Mètre Électronique](docs/metrenumerique.jpg)
 
 ## Description
 
@@ -15,13 +15,13 @@ Ce projet implémente un mètre électronique qui mesure les distances à l'aide
 - **Afficheur LED 7 segments 4 chiffres 5641BH** - pour l'affichage des mesures
 - Fils de connexion et plaque d'essai
 
-![Composants](9064729_orig.png)
+![Composants](docs/9064729_orig.png)
 
 ## Configuration Matérielle
 
 ### Schéma de Câblage
 
-![Câblage sur Plaque d'Essai](metrenumerique_bb.png)
+![Câblage sur Plaque d'Essai](docs/metrenumerique_bb.png)
 
 ### Connexions des Broches
 
@@ -38,7 +38,7 @@ Ce projet implémente un mètre électronique qui mesure les distances à l'aide
 - Chiffre 3 : Broche Numérique 16 (A2)
 - Chiffre 4 : Broche Numérique 17 (A3)
 
-![Afficheur 7 Segments](Led7Segments4Digits.png)
+![Afficheur 7 Segments](docs/Led7Segments4Digits.png)
 
 #### Capteur Ultrasonique HC-SR04
 - Broche Trig : Broche Numérique 11
@@ -46,7 +46,7 @@ Ce projet implémente un mètre électronique qui mesure les distances à l'aide
 - VCC : 5V
 - GND : Masse
 
-![Capteur Ultrasonique](ultrasonic.png)
+![Capteur Ultrasonique](docs/ultrasonic.png)
 
 ## Architecture Logicielle
 
